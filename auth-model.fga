@@ -1,0 +1,18 @@
+// auth-model.fga
+model
+  schema 1.1
+
+type user
+
+type file
+  relations
+    define reader: [user]
+    define writer: [user]
+
+type git_repo
+  relations
+    define status_checker: [user]
+
+type chroma_instance
+  relations
+    define collection_lister: [user]
