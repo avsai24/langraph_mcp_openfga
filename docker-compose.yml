@@ -1,3 +1,4 @@
+# docker file for openfga and this container need to run if we need to connect to langgraph workflow.
 version: "3.8"
 
 services:
