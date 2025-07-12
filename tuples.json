@@ -1,0 +1,21 @@
+{
+  "writes": {
+    "tuple_keys": [
+      {
+        "user": "user:agent",
+        "relation": "reader",
+        "object": "file:/projects/readme.md"
+      },
+      {
+        "user": "user:agent",
+        "relation": "writer",
+        "object": "file:/projects/readme.md"
+      },
+      {
+        "user": "user:agent",
+        "relation": "status_checker",
+        "object": "git_repo:/Users/venkatasaiancha/Documents/captenai/langgraph_mcp"
+      }
+    ]
+  }
+}
